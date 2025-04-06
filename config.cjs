@@ -20,7 +20,7 @@ const config = {
   
   REJECT_CALL: process.env.REJECT_CALL !== undefined ? process.env.REJECT_CALL === 'false' : false, 
   NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : true,
-  MODE: process.env.MODE || "private",
+  MODE: process.env.MODE || "public",
   OWNER_NAME: process.env.OWNER_NAME || "༒Ɨ ⱥm Ɉⱥȼɇ༒",
   OWNER_NUMBER: process.env.OWNER_NUMBER || "254783559650",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
